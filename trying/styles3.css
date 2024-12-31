@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* # Couleur de fond gris clair */
+    margin: 0;
+    padding: 0;
+    background: url("image1.jpg") no-repeat center center fixed; /* # Chemin de l'image */
+    background-size: cover; /* # Ajuste l'image pour couvrir tout l'écran */
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+  
+  }
+.nous {
+    background: transparent;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-container {
+    background: transparent;
+    border: 5px ridge;
+    padding: 20px;
+    border-radius: 30px;
+    text-align: center;
+    width: 80%;
+    max-width: 500px;
+    backdrop-filter:blur(15px);
+
+}
+
+.contact-container h1 {
+    color: #00b3ff;
+    margin-bottom: 20px;
+}
+
+.contact-container p {
+    margin: 10px 0;
+}
+
+.contact-info {
+    margin: 35px 0;
+}
+
+.back-btn {
+    text-decoration: none;
+    background-color: #e63946;
+    padding: 10px 50px;
+    border-radius: 15px;
+    color: white;
+    font-weight: bold;
+    transform: scale(1.9);
+      backdrop-filter: blur(10px); /* Effet de flou arrière-plan */
+
+}
+
+.back-btn:hover {
+    background-color: #d62828;
+}

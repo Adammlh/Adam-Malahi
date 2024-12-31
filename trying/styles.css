@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  background: url("image1.jpg") no-repeat center center fixed;
+  background-size: cover; 
+  color: white; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.logo {
+  position: fixed;
+  top: 30px;
+  width: 200px;
+  border-bottom: none;
+}
+.login {
+  padding: 30px;
+  width: 350px;
+  border-radius: 15px;
+  text-align: center;
+  background: transparent ; 
+  border: 5px ridge ;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px); 
+  align-items:center ;
+
+}
+.login h2 {
+  font-size: 1.5rem;
+  color: white; 
+  font-size: xx-large;
+  font-weight: bolder;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.login form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+.lastdiv{
+  display:flex ;
+  gap: 5px;
+}
+.lastdiv button{
+  width: 140px;
+}
+
+
+.login input {
+  padding: 12px;
+  width: 100%;
+  background-color: #f4f4f4; 
+  color: #333;
+  border: 1px solid #000000;
+  align-items: center;
+  border-radius: 10px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.login input:focus {
+  border-color: #1b3cc2;
+  outline: none;
+}
+
+.login button {
+  background-color: #1b3cc2;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 15px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.9s ease, transform 0.2s ease;
+
+}
+
+
+.login button:hover {
+  background-color: gray;
+}
+
+.login a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
